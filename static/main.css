@@ -244,4 +244,7 @@ h5{
     font-size: 20px;
     padding: 2rem;
 }
-
+.error{
+    padding: 2rem;
+    text-align: center;
+}
