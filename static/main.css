@@ -26,6 +26,11 @@ h4{
     text-align: center;
     padding-bottom: 1rem;
 }
+h5{
+    color: aliceblue;
+    text-align: left;
+    padding-bottom: 2rem;
+}
 #navvy{
     background-color:#212329 !important;
     color: aliceblue !important; 
@@ -215,12 +220,28 @@ h4{
 .rifle{
     padding-top: 3rem;
     padding-left: 2rem;
-    padding-bottom: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: burlywood;
 }
 .rifle p{
-    padding-left: 5rem;
-    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
 }
+.text{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+.about-apex{
+    text-align: center;
+}
+.contact{
+    background-color: #212329;
+    color: burlywood;
+    font-size: 20px;
+    padding: 2rem;
+}
+
